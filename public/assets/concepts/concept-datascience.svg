@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <rect width="1000" height="650" fill="#F7F6F1"/>
+  <rect x="30" y="30" width="940" height="590" fill="none" stroke="#E3E1D9" stroke-width="1.5"/>
+  
+  <text x="70" y="80" font-family="'Courier New', monospace" font-size="12" fill="#B7AD62" letter-spacing="2">STAGE 03 — THE DATA EXPLORER</text>
+  <text x="70" y="115" font-family="Georgia, serif" font-size="28" fill="#242522" font-weight="bold">Instagram Data Analysis &amp; Engagement Patterns</text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="14" fill="#85857D">Pandas · NumPy · Matplotlib · Seaborn · Random Forest Classification</text>
+
+  <!-- Left: Scatter Plot & Regression Curve -->
+  <g transform="translate(70, 170)">
+    <rect width="520" height="400" fill="#FFFFFF" stroke="#E3E1D9" rx="4"/>
+    <text x="30" y="40" font-family="'Courier New', monospace" font-size="11" fill="#7E7638" font-weight="bold">FEATURE CORRELATION · LIKES VS COMMENTS</text>
+    
+    <!-- Axes -->
+    <line x1="60" y1="340" x2="470" y2="340" stroke="#242522" stroke-width="1.5"/>
+    <line x1="60" y1="340" x2="60" y2="80" stroke="#242522" stroke-width="1.5"/>
+    <text x="260" y="370" font-family="'Courier New', monospace" font-size="10" fill="#85857D">IMPRESSIONS / REACH →</text>
+    <text x="30" y="70" font-family="'Courier New', monospace" font-size="10" fill="#85857D">ENGAGEMENT ↑</text>
+
+    <!-- Grid lines -->
+    <line x1="60" y1="280" x2="470" y2="280" stroke="#E3E1D9" stroke-width="1" stroke-dasharray="2 2"/>
+    <line x1="60" y1="210" x2="470" y2="210" stroke="#E3E1D9" stroke-width="1" stroke-dasharray="2 2"/>
+    <line x1="60" y1="140" x2="470" y2="140" stroke="#E3E1D9" stroke-width="1" stroke-dasharray="2 2"/>
+
+    <!-- Data points -->
+    <!-- Low tier -->
+    <circle cx="100" cy="310" r="5" fill="#85857D" opacity="0.6"/>
+    <circle cx="125" cy="300" r="6" fill="#85857D" opacity="0.6"/>
+    <circle cx="140" cy="285" r="4" fill="#85857D" opacity="0.6"/>
+    <circle cx="170" cy="270" r="7" fill="#85857D" opacity="0.6"/>
+
+    <!-- Mid tier -->
+    <circle cx="210" cy="250" r="7" fill="#B7AD62"/>
+    <circle cx="240" cy="225" r="8" fill="#B7AD62"/>
+    <circle cx="280" cy="210" r="6" fill="#B7AD62"/>
+    <circle cx="310" cy="180" r="9" fill="#B7AD62"/>
+    <circle cx="330" cy="195" r="7" fill="#B7AD62"/>
+
+    <!-- High tier outliers -->
+    <circle cx="380" cy="140" r="10" fill="#242522"/>
+    <circle cx="420" cy="110" r="11" fill="#242522"/>
+    <circle cx="450" cy="95" r="12" fill="#7E7638"/>
+
+    <!-- Trend line -->
+    <path d="M 70 330 Q 250 250 460 90" fill="none" stroke="#7E7638" stroke-width="3"/>
+  </g>
+
+  <!-- Right: Insights & Model Evaluation -->
+  <g transform="translate(620, 170)">
+    <rect width="310" height="400" fill="#242522" rx="4"/>
+    <text x="25" y="40" font-family="'Courier New', monospace" font-size="11" fill="#B7AD62" letter-spacing="1">ENGAGEMENT CLASSIFIER</text>
+    
+    <rect x="25" y="65" width="260" height="85" fill="#2E302A" rx="3"/>
+    <text x="40" y="95" font-family="Georgia, serif" font-size="30" fill="#B7AD62" font-weight="bold">92.4%</text>
+    <text x="40" y="120" font-family="'Courier New', monospace" font-size="10" fill="#FFFFFF">ACCURACY IN TIER IDENTIFICATION</text>
+    <text x="40" y="135" font-family="'Courier New', monospace" font-size="9" fill="#85857D">Random Forest Ensemble (100 Trees)</text>
+
+    <!-- Bar breakdown -->
+    <text x="25" y="185" font-family="'Courier New', monospace" font-size="10" fill="#85857D">FEATURE IMPORTANCE</text>
+
+    <text x="25" y="215" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Comments / Reel Saves</text>
+    <rect x="25" y="225" width="220" height="8" fill="#B7AD62" rx="2"/>
+    <text x="255" y="233" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62">46%</text>
+
+    <text x="25" y="260" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Total Impressions</text>
+    <rect x="25" y="270" width="160" height="8" fill="#B7AD62" rx="2" opacity="0.8"/>
+    <text x="195" y="278" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62">32%</text>
+
+    <text x="25" y="305" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF">Follower Ratio</text>
+    <rect x="25" y="315" width="90" height="8" fill="#B7AD62" rx="2" opacity="0.6"/>
+    <text x="125" y="323" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62">18%</text>
+
+    <rect x="25" y="345" width="260" height="35" fill="#1C1D1A" rx="2"/>
+    <text x="35" y="367" font-family="'Courier New', monospace" font-size="9" fill="#B7AD62">OUTPUT: TARGETED INFLUENCER TIERS</text>
+  </g>
+</svg>

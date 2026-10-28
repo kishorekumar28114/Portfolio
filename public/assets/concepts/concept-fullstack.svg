@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <rect width="1000" height="650" fill="#F7F6F1"/>
+  <rect x="30" y="30" width="940" height="590" fill="none" stroke="#E3E1D9" stroke-width="1.5"/>
+  
+  <text x="70" y="80" font-family="'Courier New', monospace" font-size="12" fill="#B7AD62" letter-spacing="2">STAGE 02 — THE BUILDER</text>
+  <text x="70" y="115" font-family="Georgia, serif" font-size="28" fill="#242522" font-weight="bold">Modern Full-Stack Architecture</text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="14" fill="#85857D">Next.js, React, Node.js, Express, MongoDB, PostgreSQL, Tailwind &amp; REST APIs</text>
+
+  <!-- Layer 1: Client / UI -->
+  <g transform="translate(70, 170)">
+    <rect width="860" height="90" fill="#FFFFFF" stroke="#E3E1D9" rx="4" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.04))"/>
+    <rect x="0" y="0" width="8" height="90" fill="#B7AD62" rx="2"/>
+    <text x="30" y="35" font-family="'Courier New', monospace" font-size="11" fill="#7E7638" font-weight="bold">LAYER 01 · CLIENT EXPERIENCE</text>
+    <text x="30" y="65" font-family="Georgia, serif" font-size="20" fill="#242522">Next.js App Router · React 19 · Responsive Editorial UI · Mobile Touch</text>
+    <rect x="680" y="25" width="150" height="38" fill="#F4F1E8" rx="3"/>
+    <text x="755" y="49" font-family="'Courier New', monospace" font-size="11" fill="#242522" text-anchor="middle">SSR / HYDRATED</text>
+  </g>
+
+  <!-- Connectors -->
+  <line x1="250" y1="260" x2="250" y2="300" stroke="#B7AD62" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="500" y1="260" x2="500" y2="300" stroke="#B7AD62" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="750" y1="260" x2="750" y2="300" stroke="#B7AD62" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Layer 2: API & Business Logic -->
+  <g transform="translate(70, 300)">
+    <rect width="860" height="100" fill="#242522" rx="4"/>
+    <rect x="0" y="0" width="8" height="100" fill="#7E7638" rx="2"/>
+    <text x="30" y="35" font-family="'Courier New', monospace" font-size="11" fill="#B7AD62" font-weight="bold">LAYER 02 · APPLICATION SERVICES &amp; API GATEWAY</text>
+    <text x="30" y="68" font-family="Georgia, serif" font-size="20" fill="#FFFFFF">Node / Express REST &amp; FastAPI · Auth JWT · Validation &amp; Error Boundaries</text>
+    <rect x="680" y="30" width="150" height="38" fill="#32342E" rx="3" stroke="#B7AD62" stroke-width="1"/>
+    <text x="755" y="54" font-family="'Courier New', monospace" font-size="11" fill="#B7AD62" text-anchor="middle">ASYNC I/O</text>
+  </g>
+
+  <!-- Connectors -->
+  <line x1="250" y1="400" x2="250" y2="440" stroke="#B7AD62" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="500" y1="400" x2="500" y2="440" stroke="#B7AD62" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="750" y1="400" x2="750" y2="440" stroke="#B7AD62" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Layer 3: Storage & Vector Layer -->
+  <g transform="translate(70, 440)">
+    <rect width="860" height="110" fill="#FFFFFF" stroke="#E3E1D9" rx="4" filter="drop-shadow(0 2px 8px rgba(0,0,0,0.04))"/>
+    <rect x="0" y="0" width="8" height="110" fill="#242522" rx="2"/>
+    <text x="30" y="35" font-family="'Courier New', monospace" font-size="11" fill="#7E7638" font-weight="bold">LAYER 03 · DATA PERSISTENCE &amp; HYBRID RETRIEVAL</text>
+    <text x="30" y="68" font-family="Georgia, serif" font-size="20" fill="#242522">MongoDB · PostgreSQL / pgvector · ChromaDB · Redis Caching</text>
+    <text x="30" y="92" font-family="'Courier New', monospace" font-size="11" fill="#85857D">ACID Transactions · HNSW Vector Indexes · Normalized Relational Schemas</text>
+    <rect x="680" y="35" width="150" height="38" fill="#F4F1E8" rx="3"/>
+    <text x="755" y="59" font-family="'Courier New', monospace" font-size="11" fill="#242522" text-anchor="middle">REDUNDANT</text>
+  </g>
+</svg>

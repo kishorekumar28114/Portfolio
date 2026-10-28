@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <rect width="1000" height="650" fill="#F7F6F1"/>
+  <rect x="30" y="30" width="940" height="590" fill="none" stroke="#E3E1D9" stroke-width="1.5"/>
+  
+  <text x="70" y="80" font-family="'Courier New', monospace" font-size="12" fill="#B7AD62" letter-spacing="2">STAGE 05 — AGENTIC AI &amp; SYNAPSEAI</text>
+  <text x="70" y="115" font-family="Georgia, serif" font-size="28" fill="#242522" font-weight="bold">LangGraph Multi-Agent Architecture (In Progress)</text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="14" fill="#85857D">Meeting transcription · Action item extraction · Contextual indexing · Tool routing with human-in-the-loop</text>
+
+  <!-- Central Supervisor Agent Node -->
+  <g transform="translate(360, 260)">
+    <circle cx="140" cy="90" r="65" fill="#242522" stroke="#B7AD62" stroke-width="3" filter="drop-shadow(0 10px 25px rgba(0,0,0,0.25))"/>
+    <text x="140" y="82" font-family="'Courier New', monospace" font-size="11" fill="#B7AD62" text-anchor="middle" font-weight="bold">LANGGRAPH</text>
+    <text x="140" y="102" font-family="Georgia, serif" font-size="15" fill="#FFFFFF" text-anchor="middle">Supervisor</text>
+  </g>
+
+  <!-- Node 1: Audio Ingestion & Whisper -->
+  <g transform="translate(70, 180)">
+    <rect width="210" height="110" fill="#FFFFFF" stroke="#E3E1D9" rx="4"/>
+    <rect x="0" y="0" width="6" height="110" fill="#7E7638" rx="2"/>
+    <text x="20" y="30" font-family="'Courier New', monospace" font-size="10" fill="#7E7638" font-weight="bold">NODE: AUDIO TRANSCRIPTION</text>
+    <text x="20" y="55" font-family="Georgia, serif" font-size="16" fill="#242522">Whisper ASR</text>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="11" fill="#85857D">Stream chunks, speaker diarization &amp; timestamps.</text>
+  </g>
+  <!-- Connector to Supervisor -->
+  <path d="M 280 235 L 375 315" stroke="#B7AD62" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Node 2: Action Item & Summary Agent -->
+  <g transform="translate(720, 180)">
+    <rect width="210" height="110" fill="#FFFFFF" stroke="#E3E1D9" rx="4"/>
+    <rect x="0" y="0" width="6" height="110" fill="#B7AD62" rx="2"/>
+    <text x="20" y="30" font-family="'Courier New', monospace" font-size="10" fill="#7E7638" font-weight="bold">NODE: ACTION EXTRACTION</text>
+    <text x="20" y="55" font-family="Georgia, serif" font-size="16" fill="#242522">Task Classifier</text>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="11" fill="#85857D">Owner assignment, deadlines &amp; deliverable tickets.</text>
+  </g>
+  <!-- Connector to Supervisor -->
+  <path d="M 720 235 L 625 315" stroke="#B7AD62" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Node 3: Project Knowledge & pgvector -->
+  <g transform="translate(70, 420)">
+    <rect width="210" height="110" fill="#FFFFFF" stroke="#E3E1D9" rx="4"/>
+    <rect x="0" y="0" width="6" height="110" fill="#242522" rx="2"/>
+    <text x="20" y="30" font-family="'Courier New', monospace" font-size="10" fill="#7E7638" font-weight="bold">NODE: KNOWLEDGE INDEX</text>
+    <text x="20" y="55" font-family="Georgia, serif" font-size="16" fill="#242522">PostgreSQL pgvector</text>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="11" fill="#85857D">Past meetings &amp; tickets indexed for semantic memory.</text>
+  </g>
+  <!-- Connector to Supervisor -->
+  <path d="M 280 475 L 375 385" stroke="#B7AD62" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- Node 4: Tool Execution & Verification -->
+  <g transform="translate(720, 420)">
+    <rect width="210" height="110" fill="#FFFFFF" stroke="#E3E1D9" rx="4"/>
+    <rect x="0" y="0" width="6" height="110" fill="#7E7638" rx="2"/>
+    <text x="20" y="30" font-family="'Courier New', monospace" font-size="10" fill="#7E7638" font-weight="bold">NODE: TOOL CALLER</text>
+    <text x="20" y="55" font-family="Georgia, serif" font-size="16" fill="#242522">Calendar &amp; Jira API</text>
+    <text x="20" y="80" font-family="Arial, sans-serif" font-size="11" fill="#85857D">Automated follow-up emails and task creation.</text>
+  </g>
+  <!-- Connector to Supervisor -->
+  <path d="M 720 475 L 625 385" stroke="#B7AD62" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- State banner -->
+  <rect x="360" y="520" width="280" height="40" fill="#242522" rx="3"/>
+  <text x="500" y="545" font-family="'Courier New', monospace" font-size="11" fill="#B7AD62" text-anchor="middle">STATUS: ACTIVE IN-PROGRESS DEVELOPMENT</text>
+</svg>

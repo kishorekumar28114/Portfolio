@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <rect width="1000" height="650" fill="#F7F6F1"/>
+  <rect x="30" y="30" width="940" height="590" fill="none" stroke="#E3E1D9" stroke-width="1.5"/>
+  
+  <text x="70" y="80" font-family="'Courier New', monospace" font-size="12" fill="#B7AD62" letter-spacing="2">PROJECT 08 — COMPANY RECOMMENDATION SYSTEM</text>
+  <text x="70" y="115" font-family="Georgia, serif" font-size="28" fill="#242522" font-weight="bold">Skill-Based Embedding &amp; Similarity Retrieval</text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="14" fill="#85857D">Foundation model exploration during Acemigrade training · Predecessor to TalentIQ</text>
+
+  <!-- Left: Candidate vector search -->
+  <g transform="translate(70, 170)">
+    <rect width="420" height="400" fill="#FFFFFF" stroke="#E3E1D9" rx="4"/>
+    <text x="30" y="40" font-family="'Courier New', monospace" font-size="11" fill="#7E7638" font-weight="bold">SKILLS INPUT &amp; COSINE SIMILARITY</text>
+
+    <rect x="30" y="65" width="360" height="70" fill="#F4F1E8" rx="2"/>
+    <text x="45" y="90" font-family="'Courier New', monospace" font-size="10" fill="#85857D">USER SKILLS QUERY</text>
+    <text x="45" y="115" font-family="Arial, sans-serif" font-size="13" fill="#242522" font-weight="bold">"Python, FastAPI, Transformers, RAG, ChromaDB"</text>
+
+    <!-- Vector map -->
+    <rect x="30" y="160" width="360" height="210" fill="#242522" rx="2"/>
+    <circle cx="210" cy="265" r="70" fill="none" stroke="#B7AD62" stroke-width="1" stroke-dasharray="2 2"/>
+    <circle cx="210" cy="265" r="8" fill="#B7AD62"/>
+    <text x="210" y="290" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62" text-anchor="middle">User Vector</text>
+
+    <!-- Companies -->
+    <circle cx="250" cy="230" r="6" fill="#FFFFFF"/>
+    <text x="262" y="234" font-family="'Courier New', monospace" font-size="9" fill="#FFFFFF">Co. A (0.94)</text>
+
+    <circle cx="170" cy="230" r="6" fill="#FFFFFF"/>
+    <text x="110" y="234" font-family="'Courier New', monospace" font-size="9" fill="#FFFFFF">Co. B (0.89)</text>
+
+    <circle cx="220" cy="315" r="6" fill="#FFFFFF"/>
+    <text x="232" y="319" font-family="'Courier New', monospace" font-size="9" fill="#FFFFFF">Co. C (0.86)</text>
+  </g>
+
+  <!-- Right: Top 3 Company Match Cards -->
+  <g transform="translate(520, 170)">
+    <rect width="410" height="400" fill="#242522" rx="4"/>
+    <text x="30" y="40" font-family="'Courier New', monospace" font-size="11" fill="#B7AD62" letter-spacing="1">TOP 3 MATCHED ORGANISATIONS</text>
+
+    <!-- Match 1 -->
+    <rect x="30" y="65" width="350" height="85" fill="#2E302A" rx="2" stroke="#B7AD62"/>
+    <text x="50" y="95" font-family="Georgia, serif" font-size="18" fill="#FFFFFF">01 · AI Systems Research Lab</text>
+    <text x="50" y="118" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62">SIMILARITY: 94.2% · HIGH SKILL RELEVANCE</text>
+
+    <!-- Match 2 -->
+    <rect x="30" y="165" width="350" height="85" fill="#2E302A" rx="2"/>
+    <text x="50" y="195" font-family="Georgia, serif" font-size="18" fill="#FFFFFF">02 · Enterprise RAG Solutions</text>
+    <text x="50" y="218" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62">SIMILARITY: 89.1% · SEMANTIC FIT</text>
+
+    <!-- Match 3 -->
+    <rect x="30" y="265" width="350" height="85" fill="#2E302A" rx="2"/>
+    <text x="50" y="295" font-family="Georgia, serif" font-size="18" fill="#FFFFFF">03 · Data Intelligence Platform</text>
+    <text x="50" y="318" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62">SIMILARITY: 86.4% · FOUNDATIONAL FIT</text>
+  </g>
+</svg>

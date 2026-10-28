@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <rect width="1000" height="650" fill="#F7F6F1"/>
+  <rect x="30" y="30" width="940" height="590" fill="none" stroke="#E3E1D9" stroke-width="1.5"/>
+  
+  <text x="70" y="80" font-family="'Courier New', monospace" font-size="12" fill="#B7AD62" letter-spacing="2">PROJECT 04 — CONTENT PLANNER</text>
+  <text x="70" y="115" font-family="Georgia, serif" font-size="28" fill="#242522" font-weight="bold">Creator Scheduling &amp; Publication Calendar</text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="14" fill="#85857D">Built during 15-day CodeHub Nexus training · Next.js, modern JavaScript &amp; state management</text>
+
+  <!-- Calendar Grid Visual -->
+  <g transform="translate(70, 170)">
+    <rect width="860" height="400" fill="#FFFFFF" stroke="#E3E1D9" rx="4"/>
+    
+    <!-- Weekday headers -->
+    <rect x="0" y="0" width="860" height="40" fill="#F4F1E8" rx="4"/>
+    <text x="60" y="25" font-family="'Courier New', monospace" font-size="11" fill="#242522" font-weight="bold">MON</text>
+    <text x="185" y="25" font-family="'Courier New', monospace" font-size="11" fill="#242522" font-weight="bold">TUE</text>
+    <text x="310" y="25" font-family="'Courier New', monospace" font-size="11" fill="#242522" font-weight="bold">WED</text>
+    <text x="435" y="25" font-family="'Courier New', monospace" font-size="11" fill="#242522" font-weight="bold">THU</text>
+    <text x="560" y="25" font-family="'Courier New', monospace" font-size="11" fill="#242522" font-weight="bold">FRI</text>
+    <text x="685" y="25" font-family="'Courier New', monospace" font-size="11" fill="#242522" font-weight="bold">SAT</text>
+    <text x="800" y="25" font-family="'Courier New', monospace" font-size="11" fill="#242522" font-weight="bold">SUN</text>
+
+    <!-- Cards inside grid -->
+    <!-- Card 1 -->
+    <rect x="25" y="60" width="105" height="130" fill="#F9F8F5" stroke="#E3E1D9" rx="3"/>
+    <rect x="35" y="70" width="40" height="14" fill="#B7AD62" rx="2"/>
+    <text x="40" y="81" font-family="'Courier New', monospace" font-size="8" fill="#242522">YOUTUBE</text>
+    <text x="35" y="105" font-family="Georgia, serif" font-size="12" fill="#242522" font-weight="bold">C++ Memory<br/>Walkthrough</text>
+    <text x="35" y="150" font-family="'Courier New', monospace" font-size="9" fill="#7E7638">STATUS: READY</text>
+
+    <!-- Card 2 -->
+    <rect x="275" y="60" width="105" height="130" fill="#242522" rx="3"/>
+    <rect x="285" y="70" width="50" height="14" fill="#7E7638" rx="2"/>
+    <text x="290" y="81" font-family="'Courier New', monospace" font-size="8" fill="#FFFFFF">LINKEDIN</text>
+    <text x="285" y="105" font-family="Georgia, serif" font-size="12" fill="#F7F6F1" font-weight="bold">540 LeetCode<br/>Milestones</text>
+    <text x="285" y="150" font-family="'Courier New', monospace" font-size="9" fill="#B7AD62">PUBLISHED</text>
+
+    <!-- Card 3 -->
+    <rect x="525" y="60" width="105" height="130" fill="#F9F8F5" stroke="#E3E1D9" rx="3"/>
+    <rect x="535" y="70" width="50" height="14" fill="#85857D" rx="2"/>
+    <text x="540" y="81" font-family="'Courier New', monospace" font-size="8" fill="#FFFFFF">GITHUB</text>
+    <text x="535" y="105" font-family="Georgia, serif" font-size="12" fill="#242522" font-weight="bold">SynapseAI<br/>Module Push</text>
+    <text x="535" y="150" font-family="'Courier New', monospace" font-size="9" fill="#85857D">SCHEDULED</text>
+
+    <!-- Lower stats bar -->
+    <rect x="25" y="240" width="810" height="130" fill="#F4F1E8" rx="3"/>
+    <text x="50" y="275" font-family="'Courier New', monospace" font-size="11" fill="#7E7638" font-weight="bold">CONSISTENCY &amp; WORKFLOW PIPELINE</text>
+    <text x="50" y="300" font-family="Arial, sans-serif" font-size="13" fill="#242522">Eliminates content friction through drag-and-drop planning, channel tagging, and scheduled drafts.</text>
+    <text x="50" y="330" font-family="'Courier New', monospace" font-size="10" fill="#85857D">TRAINING HIGHLIGHT: Next.js Component Composition · Dynamic Routing · LocalStorage Sync</text>
+  </g>
+</svg>

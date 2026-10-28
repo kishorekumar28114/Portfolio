@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <rect width="1000" height="650" fill="#F7F6F1"/>
+  <rect x="30" y="30" width="940" height="590" fill="none" stroke="#E3E1D9" stroke-width="1.5"/>
+  
+  <text x="70" y="80" font-family="'Courier New', monospace" font-size="12" fill="#B7AD62" letter-spacing="2">STAGE 06 — SYSTEM DESIGN NOTEBOOK</text>
+  <text x="70" y="115" font-family="Georgia, serif" font-size="28" fill="#242522" font-weight="bold">Distributed Systems &amp; High-Level Architecture</text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="14" fill="#85857D">Scalable URL shortener, Geo-fencing verification, Redis caching &amp; database trade-offs</text>
+
+  <!-- Left: URL Shortener Architecture -->
+  <g transform="translate(70, 180)">
+    <rect width="400" height="380" fill="#FFFFFF" stroke="#E3E1D9" rx="4"/>
+    <text x="25" y="40" font-family="'Courier New', monospace" font-size="11" fill="#7E7638" font-weight="bold">URL SHORTENER (CONCEPTUAL STUDY)</text>
+    
+    <!-- User -> LB -->
+    <rect x="25" y="70" width="100" height="40" fill="#F4F1E8" rx="2"/>
+    <text x="75" y="95" font-family="'Courier New', monospace" font-size="10" fill="#242522" text-anchor="middle">CLIENT</text>
+
+    <line x1="125" y1="90" x2="165" y2="90" stroke="#B7AD62" stroke-width="2"/>
+
+    <rect x="165" y="70" width="90" height="40" fill="#242522" rx="2"/>
+    <text x="210" y="95" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62" text-anchor="middle">NGINX LB</text>
+
+    <line x1="255" y1="90" x2="295" y2="90" stroke="#B7AD62" stroke-width="2"/>
+
+    <rect x="295" y="70" width="80" height="40" fill="#7E7638" rx="2"/>
+    <text x="335" y="95" font-family="'Courier New', monospace" font-size="10" fill="#FFFFFF" text-anchor="middle">API (x3)</text>
+
+    <!-- Cache & DB -->
+    <rect x="50" y="150" width="300" height="65" fill="#F9F8F5" stroke="#E3E1D9" rx="2"/>
+    <text x="70" y="175" font-family="'Courier New', monospace" font-size="10" fill="#242522" font-weight="bold">REDIS LRU CACHE (80/20 READ RULE)</text>
+    <text x="70" y="195" font-family="'Courier New', monospace" font-size="10" fill="#85857D">&lt; 5ms redirect latency for hot short URLs</text>
+
+    <rect x="50" y="235" width="300" height="105" fill="#242522" rx="2"/>
+    <text x="70" y="265" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62" font-weight="bold">DISTRIBUTED ID GENERATOR</text>
+    <text x="70" y="290" font-family="'Courier New', monospace" font-size="10" fill="#FFFFFF">Base62 Encoding (62^7 = ~3.5T unique URLs)</text>
+    <text x="70" y="315" font-family="'Courier New', monospace" font-size="9" fill="#85857D">Primary-Replica PostgreSQL with read replicas</text>
+  </g>
+
+  <!-- Right: Geo-Pulze Architecture -->
+  <g transform="translate(500, 180)">
+    <rect width="430" height="380" fill="#242522" rx="4"/>
+    <text x="30" y="40" font-family="'Courier New', monospace" font-size="11" fill="#B7AD62" letter-spacing="1">GEO-PULZE VERIFICATION FLOW</text>
+
+    <rect x="30" y="65" width="370" height="70" fill="#2D2F2A" rx="2" stroke="#3A3C36"/>
+    <text x="50" y="92" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62">1. HARVESINE DISTANCE VALIDATION</text>
+    <text x="50" y="115" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">Calculates student GPS coords against hostel geofence (&lt; 50m)</text>
+
+    <rect x="30" y="150" width="370" height="70" fill="#2D2F2A" rx="2" stroke="#3A3C36"/>
+    <text x="50" y="177" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62">2. TIME-BOUND CAMERA CAPTURE</text>
+    <text x="50" y="200" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">Camera verification prevents spoofing with live tamper check</text>
+
+    <rect x="30" y="235" width="370" height="70" fill="#2D2F2A" rx="2" stroke="#3A3C36"/>
+    <text x="50" y="262" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62">3. WARDEN / ADMIN AUDIT LOGS</text>
+    <text x="50" y="285" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">Real-time attendance dashboard &amp; discrepancy alerts</text>
+
+    <text x="30" y="340" font-family="'Courier New', monospace" font-size="10" fill="#85857D">NOTE: HLD STUDIED THEORETICALLY &amp; APPLIED; LLD IN ACTIVE PROGRESS</text>
+  </g>
+</svg>

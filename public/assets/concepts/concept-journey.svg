@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <rect width="1000" height="650" fill="#F7F6F1"/>
+  <rect x="30" y="30" width="940" height="590" fill="none" stroke="#E3E1D9" stroke-width="1.5"/>
+  
+  <text x="70" y="80" font-family="'Courier New', monospace" font-size="12" fill="#B7AD62" letter-spacing="2">STAGE 07 — TRAINING &amp; LEARNING JOURNEY</text>
+  <text x="70" y="115" font-family="Georgia, serif" font-size="28" fill="#242522" font-weight="bold">Progressive Trajectory: From Problem Solving to AI Systems</text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="14" fill="#85857D">Dedicated training programmes, institutional coursework, and continuous hands-on experimentation</text>
+
+  <!-- Horizontal Timeline -->
+  <g transform="translate(70, 200)">
+    <!-- Base track -->
+    <line x1="20" y1="120" x2="840" y2="120" stroke="#242522" stroke-width="2"/>
+    
+    <!-- Milestone 1 -->
+    <circle cx="100" cy="120" r="14" fill="#242522" stroke="#B7AD62" stroke-width="3"/>
+    <text x="100" y="60" font-family="'Courier New', monospace" font-size="11" fill="#7E7638" text-anchor="middle" font-weight="bold">FOUNDATIONS</text>
+    <text x="100" y="85" font-family="Georgia, serif" font-size="15" fill="#242522" text-anchor="middle">C++, Python &amp; DSA</text>
+    <rect x="25" y="160" width="150" height="120" fill="#FFFFFF" stroke="#E3E1D9" rx="3"/>
+    <text x="40" y="185" font-family="'Courier New', monospace" font-size="9" fill="#85857D">540+ LEETCODE</text>
+    <text x="40" y="210" font-family="Arial, sans-serif" font-size="11" fill="#242522">Discrete logic, memory concepts, algorithm speed.</text>
+
+    <!-- Milestone 2 -->
+    <circle cx="310" cy="120" r="14" fill="#242522" stroke="#B7AD62" stroke-width="3"/>
+    <text x="310" y="60" font-family="'Courier New', monospace" font-size="11" fill="#7E7638" text-anchor="middle" font-weight="bold">CODEHUB NEXUS</text>
+    <text x="310" y="85" font-family="Georgia, serif" font-size="15" fill="#242522" text-anchor="middle">Next.js &amp; Full-Stack</text>
+    <rect x="235" y="160" width="150" height="120" fill="#FFFFFF" stroke="#E3E1D9" rx="3"/>
+    <text x="250" y="185" font-family="'Courier New', monospace" font-size="9" fill="#85857D">15 DAYS INTENSIVE</text>
+    <text x="250" y="210" font-family="Arial, sans-serif" font-size="11" fill="#242522">Built Content Planner, master modern React &amp; SSR.</text>
+
+    <!-- Milestone 3 -->
+    <circle cx="520" cy="120" r="14" fill="#242522" stroke="#B7AD62" stroke-width="3"/>
+    <text x="520" y="60" font-family="'Courier New', monospace" font-size="11" fill="#7E7638" text-anchor="middle" font-weight="bold">ACEMIGRADE</text>
+    <text x="520" y="85" font-family="Georgia, serif" font-size="15" fill="#242522" text-anchor="middle">ML, Data &amp; LLMs</text>
+    <rect x="445" y="160" width="150" height="120" fill="#FFFFFF" stroke="#E3E1D9" rx="3"/>
+    <text x="460" y="185" font-family="'Courier New', monospace" font-size="9" fill="#85857D">1 MONTH FOCUS</text>
+    <text x="460" y="210" font-family="Arial, sans-serif" font-size="11" fill="#242522">Instagram analysis, regression, company recs.</text>
+
+    <!-- Milestone 4 -->
+    <circle cx="730" cy="120" r="14" fill="#B7AD62" stroke="#242522" stroke-width="3"/>
+    <text x="730" y="60" font-family="'Courier New', monospace" font-size="11" fill="#7E7638" text-anchor="middle" font-weight="bold">IN PROGRESS</text>
+    <text x="730" y="85" font-family="Georgia, serif" font-size="15" fill="#242522" text-anchor="middle">Agentic AI &amp; Synapse</text>
+    <rect x="655" y="160" width="150" height="120" fill="#242522" rx="3"/>
+    <text x="670" y="185" font-family="'Courier New', monospace" font-size="9" fill="#B7AD62">CURRENT PURSUIT</text>
+    <text x="670" y="210" font-family="Arial, sans-serif" font-size="11" fill="#F7F6F1">LangGraph, pgvector, tool execution &amp; systems.</text>
+  </g>
+</svg>

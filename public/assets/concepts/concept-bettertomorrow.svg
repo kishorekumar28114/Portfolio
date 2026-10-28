@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <rect width="1000" height="650" fill="#F7F6F1"/>
+  <rect x="30" y="30" width="940" height="590" fill="none" stroke="#E3E1D9" stroke-width="1.5"/>
+  
+  <text x="70" y="80" font-family="'Courier New', monospace" font-size="12" fill="#B7AD62" letter-spacing="2">PROJECT 10 — BETTER TOMORROW BLOG</text>
+  <text x="70" y="115" font-family="Georgia, serif" font-size="28" fill="#242522" font-weight="bold">MERN Stack Training Build</text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="14" fill="#85857D">15-day MERN stack training programme · Unfinished training milestone kept as an honest learning record</text>
+
+  <g transform="translate(70, 180)">
+    <rect width="860" height="380" fill="#FFFFFF" stroke="#E3E1D9" rx="4"/>
+    
+    <!-- Left Column: Schema and CRUD Flow -->
+    <g transform="translate(40, 40)">
+      <text x="0" y="20" font-family="'Courier New', monospace" font-size="11" fill="#7E7638" font-weight="bold">TRAINING ARCHITECTURE: MERN</text>
+      
+      <rect x="0" y="45" width="340" height="65" fill="#F4F1E8" rx="2"/>
+      <text x="20" y="70" font-family="'Courier New', monospace" font-size="10" fill="#242522" font-weight="bold">MONGODB &amp; MONGOOSE</text>
+      <text x="20" y="90" font-family="Arial, sans-serif" font-size="11" fill="#85857D">User Schema, Post Schema, Comments array, Auth Hash</text>
+
+      <rect x="0" y="125" width="340" height="65" fill="#F4F1E8" rx="2"/>
+      <text x="20" y="150" font-family="'Courier New', monospace" font-size="10" fill="#242522" font-weight="bold">EXPRESS &amp; NODE.JS REST API</text>
+      <text x="20" y="170" font-family="Arial, sans-serif" font-size="11" fill="#85857D">POST /auth/login · GET /posts · PUT /post/:id</text>
+
+      <rect x="0" y="205" width="340" height="65" fill="#F4F1E8" rx="2"/>
+      <text x="20" y="230" font-family="'Courier New', monospace" font-size="10" fill="#242522" font-weight="bold">REACT CLIENT</text>
+      <text x="20" y="250" font-family="Arial, sans-serif" font-size="11" fill="#85857D">Context state, markdown renderer, JWT bearer tokens</text>
+    </g>
+
+    <!-- Right Column: Honest Status & Lessons Learned -->
+    <g transform="translate(440, 40)">
+      <rect width="380" height="300" fill="#242522" rx="4"/>
+      <text x="30" y="40" font-family="'Courier New', monospace" font-size="11" fill="#B7AD62" letter-spacing="1">HONEST ASSESSMENT &amp; MILESTONE</text>
+      
+      <rect x="30" y="65" width="320" height="70" fill="#2D2F2A" rx="2"/>
+      <text x="45" y="92" font-family="'Courier New', monospace" font-size="10" fill="#B7AD62">STATUS: UNFINISHED TRAINING WORK</text>
+      <text x="45" y="115" font-family="Arial, sans-serif" font-size="12" fill="#E3E1D9">Core backend CRUD verified; front-end polishing deferred to focus on AI &amp; systems.</text>
+
+      <text x="30" y="170" font-family="'Courier New', monospace" font-size="10" fill="#85857D">KEY TAKEAWAYS</text>
+      <text x="30" y="195" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">• Importance of robust data validation schemas</text>
+      <text x="30" y="220" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">• Stateless authentication with JWT security</text>
+      <text x="30" y="245" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF">• Foundation that unlocked rapid Next.js full-stack builds</text>
+    </g>
+  </g>
+</svg>
